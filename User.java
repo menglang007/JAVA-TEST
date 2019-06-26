@@ -26,7 +26,11 @@ public class User implements Serializable {
     @Column(name="age",length = 3,nullable = true)
     private Integer age;
 
-	//ÃüÁîĞĞ  ĞŞ¸ÄÊôĞÔ
+	//ÃƒÃ¼ÃÃ®ÃÃ  ÃÃÂ¸Ã„ÃŠÃ´ÃÃ”
 	private String address;
+	
+	public void edit(){
+		system.out.prientln("ä»“åº“ä¸­æ”¹");
+	}
 
 }
