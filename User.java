@@ -26,11 +26,11 @@ public class User implements Serializable {
     @Column(name="age",length = 3,nullable = true)
     private Integer age;
 
-	//ÃüÁîÐÐ  ÐÞ¸ÄÊôÐÔ
+	//新增属性
 	private String address;
-	
+	  
 	public void edit(){
-		system.out.prientln("仓库中改");
+		system.out.prientln("仓库中编辑的");
 	}
 
 }
